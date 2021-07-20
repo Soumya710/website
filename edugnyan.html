@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="C:\Users\Soumya\Desktop\Html\styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/b52e8a06cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+     <nav>
+         <a href="Index.html"> <img src="images/Edugyan.png"></a>
+         <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+           <ul>
+               <li><a href="">HOME</a></li>
+               <li><a href="">COURSES</a></li>
+               <li><a href="">FACILITES</a></li>
+               <li><a href="">LOGIN</a></li>
+               <li><a href="">SIGN UP</a></li>
+           </ul>
+       </div> 
+         <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+     </nav>
+
+<div class="main">
+    <h1>LET'S LEARN</h1>
+    <P>If You can't learn the way we teach,we teach the way you learn.</P>
+    <a href="" class="text-btn">Visit To Know More</a>
+</div>
+    </section>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <div class="row">
+            <div class="courses-col">
+                <h2>BEGINNER</h2>
+                <p>The Beginning level is intended for students with little or no prior exposure to a language. Participants will learn to read and write and acquire the skills needed to design simple things.Beginners course, you will learn how to make high-quality, well structured and thoroughly impressive web sites. You will also gain a strong understanding of CSS concepts that will allow you to code your website exactly the way you want it to look. So in every sense this is a comprehensive HTML and CSS course. This HTML and CSS Tutorial for Beginners is perfect for both beginners and web designers who want to freshen up their skills.</p>
+            </div>
+            <div class="courses-col">
+                <h2>INTERMIDIATE</h2>
+                <p>In this intermediate-level class, we will focus on front-end web development. Students will design a website for a business, a personal blog, a charity or some other purpose. They will use HTML, CSS, Bootstrap, GitHub and a text editor to code a website that will attract their target audience and incorporate different design elements. Students will learn basic HTML, CSS and website design concepts and identify how color, font and layout can be used for specific purposes in different kinds of websites. For their final project, they will create a live website hosted by GitHub on a topic of their choice. This course is designed for students who have some experience with website design and coding.</p>
+            </div>
+            <div class="courses-col">
+                <h2>ADVANCED</h2>
+                <p>Advanced is a set of tools and techniques that help you create the modern websites that employers and clients are looking for. These skills help you make websites more responsive more easily so, whatever kind or size of device someone is using to view your site, it looks fantastic and works well. No more overlapping images or tiny text.They’ll also let you do it more quickly, easily, and efficiently. You’ll be able to get more done with less code, and the code you do write will be more understandable and organized, so you’ll be able to work better both on your own and on a team.</p>
+            </div>
+        </div>
+    </section>
+  
+    <section class="courses">
+        <h1>UPCOMING COURSES</h1>
+        <p></p>
+
+        <div class="row">
+            <div class="course-col">
+            <h3>HTML</h3>
+            <p>HTML is the foundation of all web pages. Without HTML, you wouldn’t be able to organize text or add images or videos to your web pages. HTML is the beginning of everything you need to know to create engaging web pages.You will learn all the common HTML tags used to structure HTML pages, the skeleton of all websites. You will also be able to create HTML tables to present tabular data efficiently.</p>
+        </div>
+        <div class="course-col">
+            <h3>CSS</h3>
+            <p>Without CSS, every web page would be drab plain text and images that flowed straight down the page. With CSS, you can add color and background images and change the layout of your page — your web pages can feel like works of art.You will learn many aspects of styling web pages! You’ll be able to set up the correct file structure, edit text and colors, and create attractive layouts.</p>
+        </div>
+        <div class="course-col">
+            <h3>JAVASCRIPT</h3>
+            <p>JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.You will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. The concepts covered in these lessons lay the foundation for using JavaScript in any environment.</p>
+        </div>
+
+    </section>
+    <section class="facilities">
+        <div class="column">
+        <h1>Our Facilities</h1>
+        <i class="fas fa-tv"></i></br> Free Subscription Pauses</br>
+        <i class="fas fa-chalkboard-teacher"></i></br>
+         from Top Techs</br>
+        <i class="fas fa-award">s</i></br>
+            Performance based Referrals</br>
+        <i class="fas fa-laptop-code"></i></br>
+          24/7 Doubt Resolution</br>
+         <i class="fas fa-tasks"></i></br>
+          Assessments</br>
+ 
+        <p></p>
+        </div>
+    </section>
+    <section class="footer">
+        <h3>About Us</h3>
+        <h4>Learn Without Limits</h4>
+        <p>A new brand,a renewed purpose.Take a next step in your career with a world class learning expierience</br>.we are still changing learning for the better, Now we just look better doing it.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>By Easy learning</p>
+    </section>
+    <section class="contact">
+        <h1>Any query contact us on</h1>
+        <p>edugnyan123@gmail.com</p>
+        <p>gnyanedu@edu.in</p>
+        
+    </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
